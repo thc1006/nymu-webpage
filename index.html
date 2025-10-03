@@ -408,14 +408,24 @@
     text-decoration: underline;
 }
 
-/* 修復圖片輪播超出邊界問題 */
+/* 修復圖片輪播對齊問題 */
+.outer-outer {
+    min-width: 1300px;
+}
+
+#banner {
+    text-align: center;
+}
+
 .newsflash {
-    max-width: 100%;
+    width: 1280px;
+    margin: 0 auto;
     overflow: hidden;
 }
 
 .picFocus {
-    max-width: 100%;
+    width: 1280px;
+    margin: 0 auto;
 }
 
 .picFocus .slide_cont {
@@ -423,12 +433,12 @@
 }
 
 .picFocus .slide_cont .tempWrap {
-    max-width: 100%;
+    width: 1280px;
 }
 
 .picFocus .slide_cont li .pic img {
-    max-width: 100%;
-    height: auto;
+    width: 1280px;
+    height: 457px;
 }
 </style>
 <!--[if gte IE 7]><div id='scwIEgte7'></div><![endif]-->
