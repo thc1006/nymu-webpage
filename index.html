@@ -205,7 +205,7 @@
 /* 新的頂部藍色樣式 - 匹配 top.png */
 .new-header .blue-header-bar {
     background: linear-gradient(to right, #3b5998 0%, #4a6ca8 30%, #5a7eb8 70%, #4a6ca8 100%);
-    padding: 18px 50px;
+    padding: 12px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -228,37 +228,18 @@
 .new-header .logo-section {
     display: flex;
     align-items: center;
-    gap: 20px;
     position: relative;
     z-index: 1;
 }
 
+.new-header .logo-section .logo {
+    margin-top: -6px;
+}
+
 .new-header .logo-section .logo img {
-    height: 75px;
+    height: 70px;
     width: auto;
-}
-
-.new-header .university-name {
-    color: white;
-}
-
-.new-header .chinese-name {
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 3px;
-    letter-spacing: 3px;
-}
-
-.new-header .english-name {
-    font-size: 13px;
-    font-weight: 400;
-    letter-spacing: 1.5px;
-    color: white;
-}
-
-.new-header .english-name .highlight {
-    color: #FFD700;
-    font-weight: 600;
+    display: block;
 }
 
 .new-header .right-section {
@@ -482,15 +463,11 @@
 <div class="blue-header-bar">
 <div class="logo-section">
 <a class="logo" href="#"><img src="./assets/images/logo.png" alt="陽明大學校徽"></a>
-<div class="university-name">
-<div class="chinese-name">國立陽明大學</div>
-<div class="english-name">NATIONAL <span class="highlight">YANG-MING</span> UNIVERSITY</div>
-</div>
 </div>
 <div class="right-section">
 <div class="top-links">
 <a href="#">回首頁</a> \
-<a href="#">國立陽明交通大學首頁</a> \
+<a href="https://www.nycu.edu.tw/" target="_blank">國立陽明交通大學首頁</a> \
 <a href="#">網站導覽</a> \
 <a href="#">English</a> \
 <a href="#">手機版</a>
